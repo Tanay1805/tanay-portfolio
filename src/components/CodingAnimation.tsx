@@ -32,7 +32,7 @@ const CodingAnimation = () => {
             <span className="text-green">welcomeMessage</span>{" "}
             <span className="text-slate">=</span>{" "}
             <span className="text-yellow-300">()</span>{" "}
-            <span className="text-cyan-300">=></span>{" "}
+            <span className="text-cyan-300">{'=>'}</span>{" "}
             <span className="text-slate">{"{"}</span>
           </motion.div>
           
@@ -93,7 +93,7 @@ const CodingAnimation = () => {
             transition={{ delay: 4, duration: 0.5 }}
             className="mt-4 flex items-center"
           >
-            <span className="text-green mr-1.5">></span>
+            <span className="text-green mr-1.5">{'>'}</span>
             <span className="text-slate">welcomeMessage()</span>
             <div className="w-1.5 h-3.5 bg-slate ml-1 animate-pulse"></div>
           </motion.div>
